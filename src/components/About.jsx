@@ -56,7 +56,7 @@ const About = () => {
           </div>
 
           <motion.div whileHover={{ x: 10 }} style={ctaContainer}>
-            <a href="/images/Geethapriyan_Resume.pdf" download style={resumeLink}>
+            <a href="/images/Geethapriyan S-Resume.pdf" download style={resumeLink}>
               Download CV <span style={{ marginLeft: '10px' }}>→</span>
             </a>
           </motion.div>

@@ -3,6 +3,27 @@ import { motion } from "framer-motion";
 const Projects = () => {
   const projectList = [
     {
+      title: "Personal Reading Progress Log",
+      desc: "Next.js app to track reading progress, set goals, and monitor reading habits with JWT auth.",
+      link: "https://github.com/GeethapriyanS/Reading-Progress-Log",
+      img: "/images/project-5.png",
+      tags: ["Next.js", "MongoDB", "JWT Auth"],
+    },
+    {
+      title: "Pictoria",
+      desc: "Full-featured image platform with user upload, collection saving, and external search integrations.",
+      link: "https://github.com/GeethapriyanS/Pictoria-Image-finder",
+      img: "/images/project-6.png",
+      tags: ["React", "Node.js", "MongoDB"],
+    },
+    {
+      title: "Skill Exchange",
+      desc: "Peer-to-peer skill matching app featuring real-time Socket.IO messaging and a review system.",
+      link: "https://github.com/GeethapriyanS/Skill-Exchange",
+      img: "/images/project-7.png",
+      tags: ["React", "Socket.IO", "Node.js"],
+    },
+    {
       title: "Reading Progress Log",
       desc: "A personalized tracker for monitoring reading goals, featuring progress bars and session history.",
       link: "https://reading-progress-log.vercel.app/",
